@@ -1,0 +1,15 @@
+# Desktop configuration files
+desktop.ini
+.DS_Store
+
+# Build and cache
+.build/
+.cache/
+.xmake/
+build/
+
+# IDE directories
+.vscode/
+
+# clangd configuration
+.clangd
