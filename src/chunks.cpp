@@ -11,7 +11,7 @@ static std::tuple<bool, bool> checkPLTE(const ChunkMap& nonRequiredChunks, std::
         case 2:
         case 6:
             // PLTE is optional
-            return { true, false };
+            return { true, nonRequiredChunks.contains("PLTE") };
         case 3:
             // PLTE must be present
             return { nonRequiredChunks.contains("PLTE"), true };
