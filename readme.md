@@ -12,8 +12,6 @@
 
 The code uses C++23 features so a recent compiler version is recommended.
 
-A `clean` program is also available: build it with `xmake build clean`. This removes output files from `pngstrip` in a given directory.
-
 ## Usage
 
 ```
