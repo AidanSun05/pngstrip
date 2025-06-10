@@ -1,5 +1,8 @@
 # pngstrip: Simple PNG File Validation and Optimization
 
+> [!NOTE]
+> *This project was created for educational and demonstration purposes. It has been archived as no further maintenance is planned. (Archived on 2025-06-10)*
+
 `pngstrip` is a program to remove unnecessary chunks from PNG files which do not affect how the images are displayed. For example, PNGs can contain time and textual metadata, and removing them can reduce file size.
 
 `pngstrip` will check the validity of each input file before processing it. This includes validating checksums embedded in PNG files to ensure they are not corrupted.
